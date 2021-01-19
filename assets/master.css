@@ -1,0 +1,144 @@
+/* GENERIC */
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(242,242,242);
+}
+
+div {
+  background-color: white;
+}
+
+/* PAGE SETTINGS */
+.toolbar, .list {
+  margin: 0 10%;
+}
+
+.toolbar {
+  margin-top: 5%;
+  margin-bottom: 2px;
+}
+
+/* LOGO AND TITLE */
+.logo {
+  height: 80px;
+}
+
+div.logo img {
+  margin: 10px;
+  height: 60px;
+  vertical-align: middle;
+}
+
+.logo-title {
+  font-size: 3em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* BUTTON TOOLBAR */
+.button {
+  margin: 15px 0;
+  margin-left: 30px;
+  border-radius: 6px;
+  background-color: rgb(52,216,235);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 2px solid rgb(52,216,235);
+}
+
+.button2 {
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: white;
+  color: lightgray;
+  border: 2px solid rgb(242,242,242);
+  padding: 5px 10px;
+
+}
+
+/* LIST ITEM */
+.list {
+  line-height: 180%;
+}
+
+.up-padd {
+  padding-top: 20px;
+}
+
+.noperk, ul {
+  list-style: none;
+  padding-bottom: 20PX;
+ }
+
+ li h2:before {
+  content: "\25bc";
+  font-size: 0.5em;
+ }
+
+.yes::before {
+  content: "\2713";
+	border: 1px solid green;
+  color: green;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 0.5em;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.no::before {
+  content: "\2573";
+	border: 1px solid red;
+  color: red;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 0.5em;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+li ul {
+  padding-left: 1px
+}
+
+/* ENNANCED WORDS */
+div.list span {
+  color: white;
+  border-radius: 50px;
+  font-size: 0.7em;
+}
+
+.editorial {
+  background-color: rgb(0, 153, 255);
+  border: 6px solid rgb(0, 153, 255);
+}
+
+.q1goals {
+  background-color: rgb(121, 0, 186);
+  border: 6px solid rgb(121, 0, 186);
+}
+
+.recruiting {
+  background-color: rgb(0, 186, 127);
+  border: 6px solid rgb(0, 186, 127);
+}
+
+.mobile {
+  background-color: rgb(214, 143, 0);
+  border: 6px solid rgb(214, 143, 0);
+}
+
+.website {
+  background-color: rgb(245, 73, 122);
+  border: 6px solid rgb(245, 73, 122);
+}
+
+.sales {
+  background-color: rgb(147, 214, 92);
+  border: 6px solid rgb(147, 214, 92);
+}
